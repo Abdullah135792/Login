@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.contenar{
+    margin:200px auto;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: aqua;box-shadow: 1px 1px 10px white;
+}
+.contenar:hover{
+    transform:scale(1.1);
+}
+.contenar h1{
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    display: block;
+    margin:20px auto;
+    height: 30px;
+    width: 300px;
+    border: none;
+    outline: none;
+    color: aqua;
+    background-color: black;
+}
+input:focus{
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+#send{
+    width: 150px;
+    height: 30px;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    left: 50% ;
+    transform: translate(-50%);
+    background-color: black;
+    color: aqua;
+}
+#send:hover{
+    
+ background-color: white;
+}
+h2{
+    margin: 30px 30% 10px 39%;
+
+}
+h2:hover{
+    color: antiquewhite;
+    cursor:context-menu;
+}
+#password,#email1{
+    display: none;
+}
